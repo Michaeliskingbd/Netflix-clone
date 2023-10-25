@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import Action from './Action';
+import Comedy from './Comedy';
 import './App.css';
+import Horror from './Horror';
+import Original from './Original';
+import Romance from './Romance';
+import Toprated from './Toprated';
+import Trending from './Trending';
+import Featured from './featured/Featured';
+import Navbar from './navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <Featured/>
+      <Original/>
+      <Trending/>
+      <Toprated/>
+      <Comedy/>
+      <Action/>
+      <Horror/>
+      <Romance/>
+     
+      
+    </>
+  
   );
 }
 

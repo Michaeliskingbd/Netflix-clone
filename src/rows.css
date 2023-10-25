@@ -1,0 +1,91 @@
+section {
+    margin: auto;
+    overflow: hidden;
+}
+
+section h2 {
+    margin-left: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.row__poster img {
+    width: 11.4rem;
+    border-radius: .6rem;
+}
+.row__poster {
+    padding: 0rem 1.5rem;
+}
+
+
+.trending img {
+    width: 9rem;
+}
+.Horror img {
+    width: 9rem;
+}
+.Toprated img {
+    width: 9rem;
+}
+.Romance img {
+    width: 9rem;
+}
+.Comedy img {
+    width: 9rem;
+}
+
+@media screen  and (max-width: 480px) {
+    section {
+       padding: .8rem;
+    }
+
+    section h2 {
+        margin-left: 1rem;
+    }
+    .row__poster {
+        padding: 0rem;
+    }
+    section h2 {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+   
+    .row__poster img {
+        width: 9.5rem;
+        border-radius: .3rem;
+       
+    } 
+
+    .trending img {
+        width: 6.7rem;
+       
+    }
+
+    /* TO GIVE SPACE BETWEEN BOTTOM NAVBAR AND THE LAST ROW IN MOBILE VIEW*/
+    .romance {
+        margin-bottom: 5rem;
+    }
+   
+  }
+  
+  /* media queries (small screen) */
+  @media screen  and (max-width: 390px) {
+    .row__poster img {
+        width: 8.2rem;
+     
+    } 
+
+    
+    .trending img {
+        width: 5.8rem;
+       
+    }
+  }
+
+
+
+
+
+
+
+
