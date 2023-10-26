@@ -68,6 +68,7 @@ const Comedy = () => {
       settings: {
         slidesToShow: 3.4,
         slidesToScroll: 1,
+        initialSlide: 2,
        
       }
     }

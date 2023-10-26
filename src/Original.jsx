@@ -25,12 +25,12 @@ const Original = () => {
  
         var settings = {
        
-            arrows: false,
+          arrows: false,
           infinite: false,
           speed: 300,
           slidesToShow: 6.8,
           slidesToScroll: 4,
-          initialSlide: 0,
+          initialSlide: 2,
           responsive: [
             {
               breakpoint: 1024,
@@ -72,6 +72,7 @@ const Original = () => {
               settings: {
                 slidesToShow: 2.4,
                 slidesToScroll: 1,
+                initialSlide: 2
                
               }
             }

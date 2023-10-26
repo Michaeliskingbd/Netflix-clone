@@ -24,7 +24,7 @@ const Trending = () => {
   speed: 300,
   slidesToShow: 8.5,
   slidesToScroll: 4,
-  initialSlide: 0,
+  initialSlide: 2,
   responsive: [
     {
       breakpoint: 1024,
@@ -66,6 +66,7 @@ const Trending = () => {
       settings: {
         slidesToShow: 3.4,
         slidesToScroll: 1,
+        initialSlide: 2,
        
       }
     }

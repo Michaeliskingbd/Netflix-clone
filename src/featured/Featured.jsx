@@ -46,7 +46,7 @@ const Featured = () => {
           <div>{featuredMovie.year} | 16+ | {featuredMovie.seasons} Seasons | {featuredMovie.Fgenre}</div>
         <h3>{featuredMovie.desc}
        </h3>
-        <h3> <small>Starring:</small>{featuredMovie.starring}<br></br>
+        <h3> <small>Starring:</small> {featuredMovie.starring}<br></br>
         <small>Creators:</small> {featuredMovie.Creators}</h3>
 
         
